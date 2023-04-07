@@ -1,3 +1,53 @@
+
+/* 中心コンテンツ */
+main.dental_main {
+	display: flex;
+	justify-content: center;
+}
+aside.dental_main_left {
+	width: 20%;
+}
+ul.dental_main_left_lists {
+	list-style: none;
+	border: 1px solid cadetblue;
+	border-radius: 10px;
+	margin: 1rem 0 1.5rem;
+	padding-bottom: 1.5rem;
+}
+li.dental_main_left_list {
+	padding: 1rem;
+	border-bottom: 1px solid cadetblue;
+}
+.dental_main_left_lists_title {
+	background: cadetblue;
+	color: white;
+	border-radius: 10px 10px 0 0;
+}
+.dental_main_right {
+	width: 60%;
+}
+img.dental_main_right_visual {
+	margin: 0.5rem 2rem;
+}
+.news_contents {
+	background: white;
+	margin: 0 2rem;
+	padding: 1rem;
+	border-radius: 5px;
+}
+h2.news_contents_title {
+	border-bottom: 4px solid cadetblue;
+	padding-bottom: 1rem;
+	color: #343232;
+}
+ul.news_contents_inner_lists {
+	list-style: none;
+}
+li.news_contents_inner_list {
+	padding: 1rem;
+	border-bottom: 1px solid lightgray;
+}
+/* 中心コンテンツ */
 /* PC-size */
 /* common */
 a {
@@ -155,3 +205,4 @@ body {
     color: #515151;
     font-family: Verdana, Arial, Helvetica, meirio, メイリオ, "Hiragino Maru Gothic Pro", "ヒラギノ丸ゴ Pro W4", Osaka, "ＭＳ Ｐゴシック", sans-serif;
 }
+
